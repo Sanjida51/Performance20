@@ -1,0 +1,71 @@
+.box1{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    opacity: 0.5;
+    float: left;
+}
+.box2{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    overflow: hidden;
+    opacity: 1;
+    float: right;
+}
+.box1:hover{
+    opacity: 1;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #161616;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: bisque;
+    padding:15px 10px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #0b7fe2;
+}
+.active{
+    background: darkgreen;
+}
+li .dropdown{
+    display: inline-block;
+}
+.dropdown-content a{
+    color: #000;
+    padding: 10px 10px;
+    display: none;
+    text-decoration: none;
+}
+.main{
+    margin-left: 25%;
+}
+.S{
+    background-image: url(img/fooditem.jpg);
+    padding-top: 2%;
+    font-size: 18px;
+    
+}
+legend{
+            text-shadow: 2px 2px black;
+            color: #0dc2c9;
+            font-size: 40px;
+        }
+ label{
+            color:aquamarine;
+      }
+ input{
+          background-color: antiquewhite;
+      }
